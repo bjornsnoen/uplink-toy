@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "uplink-toy"
+version = "0.1.0"
+description = "Reproduces class_or_builder decorator issue"
+authors = ["Bjørn Snoen <bjorn@fink.no>"]
+packages = [{include = "uplink_toy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uplink = "^0.9.6"
+pyright = "^0.0.13"
+
+[tool.pyright]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
